@@ -77,7 +77,7 @@
 
       <header-file src="src/ios/AppDelegate+parsepush.h" />
       <source-file src="src/ios/AppDelegate+parsepush.m" />
-
+      <framework src="UserNotifications.framework" />
       <framework src="AudioToolbox.framework" />
       <framework src="CFNetwork.framework" />
       <framework src="CoreGraphics.framework" />
